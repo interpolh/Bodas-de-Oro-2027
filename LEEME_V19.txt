@@ -1,0 +1,1 @@
+V19: sección de asistencia simplificada; se eliminan textos técnicos y de prueba visibles. El envío sigue siendo no-cors: la recepción debe verificarse en Google Sheets, ya que el navegador no puede comprobar el guardado. No hay prevención robusta de duplicados.

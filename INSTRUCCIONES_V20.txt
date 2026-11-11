@@ -1,0 +1,10 @@
+BODAS DE ORO — V20
+
+1. EN GOOGLE APPS SCRIPT: Abre el proyecto existente desde Google Sheets, copia y sustituye Código.gs con CODIGO_APPS_SCRIPT_V20.gs. Guarda.
+2. Implementar > Administrar implementaciones > editar (lápiz) > Versión: Nueva versión > Implementar. Es indispensable: el código viejo NO procesa asistencia, invitado de ni duplicados. Mantén la URL /exec.
+3. EN GITHUB: sube index.html y las dos imágenes nuevas assets/bodas-de-oro-1.jpg y assets/bodas-de-oro-2.jpg (o sube la carpeta assets entera).
+4. Prueba con un nombre ficticio, confirma la nueva fila en Confirmaciones Web, luego intenta el mismo nombre y verifica que no aparezca otra fila. Borra las filas de prueba manualmente.
+5. IMPORTANTE: por restricciones CORS de Apps Script desde GitHub Pages, el navegador no puede leer la respuesta del servidor; el texto de la página indica «solicitud enviada», no «registrado». Los errores por duplicado y plazo se verifican en Sheets / registro de Apps Script. Para una confirmación verificable al instante, se necesita alojar el formulario dentro de Apps Script o usar otro backend compatible con CORS.
+6. Duplicados se identifican por nombre normalizado, lo que puede bloquear homónimos reales; confirmar manualmente con organizadores. No es control de cupos por familia ni prevención absoluta de abuso.
+7. Fecha límite 20/12/2026 23:59:59 hora de Tehuacán; zona horaria del script America/Mexico_City.
+8. Los registros anteriores se conservan, columnas A:E, y se agregan F:G.

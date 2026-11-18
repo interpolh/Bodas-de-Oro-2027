@@ -95,8 +95,9 @@
 <div class="guest-counter" id="guestCounter">
 <h3>✦ Confirma tu asistencia ✦</h3>
 <p class="guest-note">Te esperamos con mucho cariño. <strong>Fecha límite: 20 de diciembre de 2026, 11:59 p. m. (hora de Tehuacán).</strong></p>
-<label for="guestName">Nombre completo</label>
-<input id="guestName" type="text" autocomplete="name" maxlength="100" placeholder="Escribe tu nombre completo" />
+<label for="guestName">Nombre completo y apellidos</label>
+<input id="guestName" type="text" autocomplete="name" maxlength="100" placeholder="Ejemplo: Juan Carlos Pérez López" aria-describedby="guestNameHelp" />
+<p id="guestNameHelp" style="margin:7px 0 15px;font-size:.9rem;color:#735337">Escribe tu nombre y ambos apellidos, sin abreviaturas ni títulos como Sr., Sra. o Lic.</p>
 <fieldset class="guest-choice"><legend>¿Asistirás a nuestra celebración?</legend><label><input type="radio" name="attendance" value="si" checked> Sí, asistiré con mucho gusto</label><label><input type="radio" name="attendance" value="no"> No podré asistir</label></fieldset>
 <fieldset class="guest-choice"><legend>¿De quién eres invitado?</legend><label><input type="radio" name="invitedBy" value="Bodas de Oro" checked> Rosa y Pablo — Bodas de Oro</label><label><input type="radio" name="invitedBy" value="Nuestra Boda"> Carmen y Cristopher — Nuestra Boda</label><label><input type="radio" name="invitedBy" value="Ambas parejas"> De ambas parejas</label></fieldset>
 <div id="guestCounts"><p class="guest-note">Máximo <strong>9 personas en total</strong>, sumando adultos y niños.</p>
